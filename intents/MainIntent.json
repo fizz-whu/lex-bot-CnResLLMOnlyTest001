@@ -1,0 +1,104 @@
+{
+  "intentId": "B48ZZHVFH9",
+  "intentName": "MainIntent",
+  "sampleUtterances": [
+    {
+      "utterance": "hello"
+    },
+    {
+      "utterance": "hi"
+    },
+    {
+      "utterance": "I want"
+    },
+    {
+      "utterance": "I would like"
+    },
+    {
+      "utterance": "I will have"
+    },
+    {
+      "utterance": "can I have"
+    },
+    {
+      "utterance": "can I get"
+    },
+    {
+      "utterance": "give me"
+    },
+    {
+      "utterance": "order"
+    },
+    {
+      "utterance": "menu"
+    },
+    {
+      "utterance": "food"
+    },
+    {
+      "utterance": "show me"
+    },
+    {
+      "utterance": "what"
+    },
+    {
+      "utterance": "how much"
+    },
+    {
+      "utterance": "price"
+    }
+  ],
+  "fulfillmentCodeHook": {
+    "enabled": true,
+    "postFulfillmentStatusSpecification": {
+      "successNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        }
+      },
+      "failureNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        }
+      },
+      "timeoutNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        }
+      }
+    }
+  },
+  "botId": "BCBFZ3NILB",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2025-10-05T18:10:57.678000-04:00",
+  "lastUpdatedDateTime": "2025-10-05T19:59:47.869000-04:00",
+  "initialResponseSetting": {
+    "nextStep": {
+      "dialogAction": {
+        "type": "InvokeDialogCodeHook"
+      }
+    },
+    "codeHook": {
+      "enableCodeHookInvocation": true,
+      "active": true,
+      "postCodeHookSpecification": {
+        "successNextStep": {
+          "dialogAction": {
+            "type": "FulfillIntent"
+          }
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        }
+      }
+    }
+  }
+}

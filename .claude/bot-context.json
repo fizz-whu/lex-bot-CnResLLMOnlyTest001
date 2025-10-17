@@ -1,0 +1,18 @@
+{
+  "botId": "BCBFZ3NILB",
+  "botName": "CnResLLMOnlyTest001",
+  "region": "us-east-1",
+  "lambdaFunction": "CnResLexLLMOrchestrator",
+  "lambdaArn": "arn:aws:lambda:us-east-1:495599767527:function:CnResLexLLMOrchestrator",
+  "aliases": {
+    "prod": {
+      "aliasId": "FURK575RGN",
+      "botVersion": "7"
+    },
+    "TestBotAlias": {
+      "aliasId": "TSTALIASID",
+      "botVersion": "DRAFT"
+    }
+  },
+  "notes": "This file is used by Claude Code to quickly identify which bot to work on. Update this file if the bot ID or other key details change."
+}

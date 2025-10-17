@@ -1,0 +1,54 @@
+{
+  "botId": "BCBFZ3NILB",
+  "botVersionSummaries": [
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "DRAFT",
+      "description": "LLM-only restaurant ordering bot using Bedrock",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T16:29:15.707000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "7",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T20:26:16.519000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "6",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T20:02:05.762000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "5",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T19:53:32.010000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "4",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T19:23:20.710000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "3",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T18:11:36.418000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "2",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T18:06:27.029000-04:00"
+    },
+    {
+      "botName": "CnResLLMOnlyTest001",
+      "botVersion": "1",
+      "botStatus": "Available",
+      "creationDateTime": "2025-10-05T16:40:46.366000-04:00"
+    }
+  ]
+}

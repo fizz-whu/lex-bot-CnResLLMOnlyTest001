@@ -1,0 +1,42 @@
+{
+  "FunctionName": "CnResLexLLMOrchestrator",
+  "FunctionArn": "arn:aws:lambda:us-east-1:495599767527:function:CnResLexLLMOrchestrator",
+  "Runtime": "python3.11",
+  "Role": "arn:aws:iam::495599767527:role/CnResLexLLMRole",
+  "Handler": "lex_llm_orchestrator.lambda_handler",
+  "CodeSize": 3986,
+  "Description": "",
+  "Timeout": 30,
+  "MemorySize": 256,
+  "LastModified": "2025-10-07T03:06:12.000+0000",
+  "CodeSha256": "lnuXw3BZXmW5r1SI5/pVPHgI6J6OtyCENMnBnBgMi+I=",
+  "Version": "$LATEST",
+  "Environment": {
+    "Variables": {
+      "MODEL_ID": "openai.gpt-oss-20b-1:0",
+      "RESTAURANT_ID": "CnResNJLLMONLYTEST",
+      "SESSION_TABLE": "CnResSessions",
+      "MENU_TABLE": "CnResMenu"
+    }
+  },
+  "TracingConfig": {
+    "Mode": "PassThrough"
+  },
+  "State": "Active",
+  "LastUpdateStatus": "Successful",
+  "PackageType": "Zip",
+  "Architectures": [
+    "x86_64"
+  ],
+  "EphemeralStorage": {
+    "Size": 512
+  },
+  "SnapStart": {
+    "ApplyOn": "None",
+    "OptimizationStatus": "Off"
+  },
+  "LoggingConfig": {
+    "LogFormat": "Text",
+    "LogGroup": "/aws/lambda/CnResLexLLMOrchestrator"
+  }
+}

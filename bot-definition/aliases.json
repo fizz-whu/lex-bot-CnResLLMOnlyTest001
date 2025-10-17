@@ -1,0 +1,85 @@
+{
+  "botId": "BCBFZ3NILB",
+  "aliases": [
+    {
+      "botAliasId": "FURK575RGN",
+      "botAliasName": "prod",
+      "botVersion": "7",
+      "botAliasLocaleSettings": {
+        "en_US": {
+          "enabled": true,
+          "codeHookSpecification": {
+            "lambdaCodeHook": {
+              "lambdaARN": "arn:aws:lambda:us-east-1:495599767527:function:CnResLexLLMOrchestrator",
+              "codeHookInterfaceVersion": "1.0"
+            }
+          }
+        }
+      },
+      "botAliasHistoryEvents": [
+        {
+          "botVersion": "6",
+          "startDate": "2025-10-05T20:02:55.004000-04:00",
+          "endDate": "2025-10-05T20:43:54.340000-04:00"
+        },
+        {
+          "botVersion": "5",
+          "startDate": "2025-10-05T19:55:17.522000-04:00",
+          "endDate": "2025-10-05T20:02:55.004000-04:00"
+        },
+        {
+          "botVersion": "4",
+          "startDate": "2025-10-05T19:37:11.865000-04:00",
+          "endDate": "2025-10-05T19:55:17.522000-04:00"
+        },
+        {
+          "botVersion": "3",
+          "startDate": "2025-10-05T18:11:57.385000-04:00",
+          "endDate": "2025-10-05T19:37:11.865000-04:00"
+        },
+        {
+          "botVersion": "2",
+          "startDate": "2025-10-05T18:06:46.955000-04:00",
+          "endDate": "2025-10-05T18:11:57.385000-04:00"
+        },
+        {
+          "botVersion": "1",
+          "startDate": "2025-10-05T16:41:23.217000-04:00",
+          "endDate": "2025-10-05T18:06:46.955000-04:00"
+        },
+        {
+          "botVersion": "7",
+          "startDate": "2025-10-05T20:43:54.340000-04:00"
+        }
+      ],
+      "botAliasStatus": "Available",
+      "creationDateTime": "2025-10-05T16:41:23.217000-04:00",
+      "lastUpdatedDateTime": "2025-10-05T20:43:54.366000-04:00"
+    },
+    {
+      "botAliasId": "TSTALIASID",
+      "botAliasName": "TestBotAlias",
+      "botVersion": "DRAFT",
+      "botAliasLocaleSettings": {
+        "en_US": {
+          "enabled": true,
+          "codeHookSpecification": {
+            "lambdaCodeHook": {
+              "lambdaARN": "arn:aws:lambda:us-east-1:495599767527:function:CnResLexLLMOrchestrator",
+              "codeHookInterfaceVersion": "1.0"
+            }
+          }
+        }
+      },
+      "botAliasHistoryEvents": [
+        {
+          "botVersion": "DRAFT",
+          "startDate": "2025-10-05T16:29:16.188000-04:00"
+        }
+      ],
+      "botAliasStatus": "Available",
+      "creationDateTime": "2025-10-05T16:29:16.113000-04:00",
+      "lastUpdatedDateTime": "2025-10-05T19:12:08.856000-04:00"
+    }
+  ]
+}

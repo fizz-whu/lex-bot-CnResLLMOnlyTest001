@@ -1,0 +1,58 @@
+{
+  "intentId": "FALLBCKINT",
+  "intentName": "FallbackIntent",
+  "parentIntentSignature": "AMAZON.FallbackIntent",
+  "fulfillmentCodeHook": {
+    "enabled": true,
+    "postFulfillmentStatusSpecification": {
+      "successNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        }
+      },
+      "failureNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        }
+      },
+      "timeoutNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        }
+      }
+    }
+  },
+  "botId": "BCBFZ3NILB",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2025-10-05T16:29:24.702000-04:00",
+  "lastUpdatedDateTime": "2025-10-05T20:22:11.114000-04:00",
+  "initialResponseSetting": {
+    "nextStep": {
+      "dialogAction": {
+        "type": "InvokeDialogCodeHook"
+      }
+    },
+    "codeHook": {
+      "enableCodeHookInvocation": true,
+      "active": true,
+      "postCodeHookSpecification": {
+        "successNextStep": {
+          "dialogAction": {
+            "type": "FulfillIntent"
+          }
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "botId": "BCBFZ3NILB",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "localeName": "English (US)",
+  "nluIntentConfidenceThreshold": 0.2,
+  "voiceSettings": {
+    "voiceId": "Joanna",
+    "engine": "standard"
+  },
+  "intentsCount": 2,
+  "slotTypesCount": 0,
+  "botLocaleStatus": "Built",
+  "creationDateTime": "2025-10-05T16:29:24.353000-04:00",
+  "lastUpdatedDateTime": "2025-10-05T20:26:26.087000-04:00",
+  "lastBuildSubmittedDateTime": "2025-10-15T23:02:20.803000-04:00",
+  "botLocaleHistoryEvents": [
+    {
+      "event": "Included in V7 from DRAFT",
+      "eventDate": "2025-10-05T20:26:26.087000-04:00"
+    },
+    {
+      "event": "Included in V6 from DRAFT",
+      "eventDate": "2025-10-05T20:02:15.311000-04:00"
+    },
+    {
+      "event": "Included in V5 from DRAFT",
+      "eventDate": "2025-10-05T19:53:50.133000-04:00"
+    },
+    {
+      "event": "Included in V4 from DRAFT",
+      "eventDate": "2025-10-05T19:23:23.864000-04:00"
+    },
+    {
+      "event": "Included in V3 from DRAFT",
+      "eventDate": "2025-10-05T18:11:54.993000-04:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "botId": "BCBFZ3NILB",
+  "botName": "CnResLLMOnlyTest001",
+  "description": "LLM-only restaurant ordering bot using Bedrock",
+  "roleArn": "arn:aws:iam::495599767527:role/aws-service-role/lexv2.amazonaws.com/AWSServiceRoleForLexV2Bots_MNRWSJGNYPA",
+  "dataPrivacy": {
+    "childDirected": false
+  },
+  "idleSessionTTLInSeconds": 300,
+  "botStatus": "Available",
+  "creationDateTime": "2025-10-05T16:29:15.707000-04:00",
+  "lastUpdatedDateTime": "2025-10-05T20:26:26.556000-04:00",
+  "botType": "Bot"
+}
